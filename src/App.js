@@ -1,4 +1,4 @@
-import * as React from 'react';npm
+import * as React from 'react';
 import './App.css';
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer';
@@ -7,9 +7,8 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 
 
-
 function App() {
-  return (
+  return (  
     <div className="App bg-dark">
       <Router>
           <Navbar/>
